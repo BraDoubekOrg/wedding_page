@@ -5,14 +5,11 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nuptial &mdash; 100% Free Fully Responsive HTML5 Template by FREEHTML5.co</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
-
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title> Svatba B&P </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Branislav Doubek" />
   <!-- 
 	//////////////////////////////////////////////////////
 
@@ -40,10 +37,8 @@
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
-	
-	<link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-	
+	<link href='https://fonts.googleapis.com/css?family=Parisienne&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -78,8 +73,7 @@
 						<div class="container">
 							<div class="col-md-10 col-md-offset-1">
 								<div class="animate-box">
-									<h1>Nuptial</h1>
-									<h2>When &amp; Where</h2>
+									<h2>Kdy a kde?</h2>
 								</div>
 							</div>
 						</div>
@@ -92,25 +86,12 @@
 			<div class="container">
 				<div class="nav-header">
 					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle dark"><i></i></a>
-					<h1 id="fh5co-logo"><a href="index.html">Nuptial</a></h1>
+					<h1 id="fh5co-logo"><a href="index.html">Láska na Luníkově</a></h1>
 					<!-- START #fh5co-menu-wrap -->
 					<nav id="fh5co-menu-wrap" role="navigation">
 						<ul class="sf-menu" id="fh5co-primary-menu">
 							<li><a href="index.html" >Home</a></li>
-							<li>
-								<a href="groom-bride.html" class="fh5co-sub-ddown">Groom &amp; Bride</a>
-								<ul class="fh5co-sub-menu">
-									<li><a href="https://freehtml5.co/wedding-free-html5-bootstrap-template-for-wedding-websites/">Wedding Template</a></li>
-									<li><a href="https://freehtml5.co/marble-free-html5-bootstrap-template-for-portfolio-or-multi-purpose-websites/">Marble Template</a></li>
-									<li><a href="https://freehtml5.co/tasty-free-bootstrap-html5-template-for-restaurant-websites/">Tasty Template</a></li>
-									<li><a href="https://freehtml5.co/education-free-html5-bootstrap-template-elearning-school-websites/">Education Template</a></li>
-									<li><a href="https://freehtml5.co/words-free-html5-bootstrap-template-multi-purpose/">Words Template</a></li>
-								</ul>
-							</li>
-							<li class="active"><a href="when-where.html">When &amp; Where</a></li>
-							<li><a href="guest.html">Guest</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="blog.html">Blog</a></li>
+							<li class="active"><a href="kdy-a-kde.html">Kdy &amp; Kde</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -124,7 +105,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h2>When &amp; Where</h2>
+						<h2>Kdy &amp; Kde</h2>
 					</div>
 				</div>
 				<div class="row row-bottom-padded-md">
@@ -151,7 +132,22 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<div id="map" class="fh5co-map"></div>
+						
+	<gmp-map
+	center="50.25393795822733, 14.162203859847759"
+	zoom="14"
+	map-id="DEMO_MAP_ID"
+	style="height: 400px"
+  >
+	<gmp-advanced-marker
+	  position="50.25393795822733, 14.162203859847759"
+	  title="Statek Lunikov"
+	></gmp-advanced-marker>
+  </gmp-map>
+	<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsLPMn-hByPRBqlN2IOHUw8ABxT33au_M&libraries=maps,marker&v=beta"
+    defer
+></script>
 					</div>
 				</div>
 			</div>
