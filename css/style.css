@@ -58,17 +58,17 @@ figure {
 
 ::-webkit-selection {
   color: #fcfcfc;
-  background: #cc6c48;
+  background: #a5b299;
 }
 
 ::-moz-selection {
   color: #fcfcfc;
-  background: #cc6c48;
+  background: #a5b299;
 }
 
 ::selection {
   color: #fcfcfc;
-  background: #cc6c48;
+  background: #a5b299;
 }
 
 #fh5co-header {
