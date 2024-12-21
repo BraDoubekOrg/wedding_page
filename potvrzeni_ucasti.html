@@ -101,98 +101,32 @@
 		<!-- end:header-top -->
 		
 
-		<div id="fh5co-when-where" class="fh5co-section-gray">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section animate-box">
-						<h2>Kdy &amp; Kde</h2>
-					</div>
-				</div>
-				<div class="row row-bottom-padded-md">
-					<div class="col-md-6 text-center animate-box">
-						<div class="wedding-events">
-							<div class="ceremony-bg" style="background-image: url(images/wed-ceremony.jpg);"></div>
-							<div class="desc">
-								<h3>Obřad</h3> 
-								<p><strong>Sobota, Července 12, 2025, ve 14 hodin na statku Luníkov</strong></p>
-								<p></p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-6 text-center animate-box">
-						<div class="wedding-events">
-							<div class="ceremony-bg" style="background-image: url(images/wed-party.jpg);"></div>
-							<div class="desc">
-								<h3>Svatební oslava</h3>
-								<p><strong>Sobota, Července 12, 2025, od 15 hodin na statku Luníkov</strong></p>
-								<p>OPIJEM SE, OPIJEM SE, OPIJEM SE</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						
-	<gmp-map
-	center="50.25393795822733, 14.162203859847759"
-	zoom="14"
-	map-id="DEMO_MAP_ID"
-	style="height: 400px"
-  >
-	<gmp-advanced-marker
-	  position="50.25393795822733, 14.162203859847759"
-	  title="Statek Lunikov"
-	></gmp-advanced-marker>
-  </gmp-map>
-	<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsLPMn-hByPRBqlN2IOHUw8ABxT33au_M&libraries=maps,marker&v=beta"
-    defer
-></script>
-					</div>
-				</div>
-			</div>
-		</div>
+		<form action="https://fabform.io/f/ExBXBrR" method="post">
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required><br>
+	
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required><br>
+			
+			<label for="plus_1">+1?</label>
+			<input type="checkbox" id="plus_1" name="plus_1" required><br>
+			
+			<label for="ubytovani">Chci prespat?</label>
+			<input type="checkbox" id="ubytovani" name="ubytovani" required><br>
+			
 
-	<div id="fh5co-started" style="background-image:url(images/cover_bg_2.jpg);"data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-			<div class="container">
-				<div class="row animate-box">
-					<div class="col-md-8 col-md-offset-2 text-center heading-section">
-						<h2>RSVP?</h2>
-						<p> Pokud se planujete zucastnit, tak prosim vyplnte formular.
-					</div>
-				</div>
-				<div class="row animate-box">
-					<div class="col-md-10 col-md-offset-1">
-						<form class="form-inline">
-							<div class="col-md-4 col-sm-4">
-								<div class="form-group">
-									<label for="name" class="sr-only">Name</label>
-									<input type="name" class="form-control" id="name" placeholder="Name">
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<div class="form-group">
-									<label for="email" class="sr-only">Email</label>
-									<input type="email" class="form-control" id="email" placeholder="Email">
-								</div>
-							</div>
-							<div class="col-md-4 col-sm-4">
-								<button type="submit" class="btn btn-primary btn-block">I am Attending</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea><br>
+	
+			<input type="submit" value="Submit">
+		</form>
+
 	<!-- END fh5co-page -->
 
 	</div>
 	<!-- END fh5co-wrapper -->
 
 	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<!-- jQuery -->
 	<script src="dist/scripts.min.js"></script>
 	</body>
