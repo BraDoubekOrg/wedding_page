@@ -3146,7 +3146,10 @@ input[type="search"] {
 .form-group {
   margin-bottom: 15px;
 }
-
+form { 
+  margin: 0 auto; 
+  width:250px;
+  }
 .radio,
 .checkbox {
   position: relative;
